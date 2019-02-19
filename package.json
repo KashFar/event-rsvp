@@ -1,0 +1,25 @@
+{
+  "name": "event-rsvp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/KashF/event-rsvp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/KashF/event-rsvp/issues"
+  },
+  "homepage": "https://gitlab.com/KashF/event-rsvp#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.12",
+    "pug": "^2.0.3"
+  }
+}

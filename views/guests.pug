@@ -1,0 +1,18 @@
+html
+body
+h1= "Guest list"
+    h2="Attending"
+    ul
+        each val in userResponse
+            if (val.attending)
+                li= "name: " + val.name + ", email: " + val.email + ", guests: " + val.guests
+    h2="Not Attending"
+    ul 
+        each val in userResponse
+            if (!val.attending)
+                li= "name: " + val.name + ", email: " + val.email
+            
+            
+            
+            //- if val.attending === true\
+            //- if val.attending === false\
